@@ -1,0 +1,26 @@
+a{
+	font-size: 25px;
+	text-decoration: none;/*Para quitar la linea de abajo */
+}
+
+/*Cuando el usuario pasa el mouse por encima */
+a:hover{
+	background: #4FB238;
+	color:#CFB9B9;
+
+}
+
+/*enlaces que no han sido visitados*/
+a:link {
+	text-decoration: none;
+	color: red;
+}
+
+/*enlaces que  han sido visitados*/
+a:visited {
+ color:#D5CCCC;
+}
+/* el texto se subraya cuando le da click*/
+a:active{
+	text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.caja {
+	width: 200px;
+	height: 200px;
+	background: #21295c;
+	transition:all 2s ease;/*importante para hacer mas bonito el cambio valor estandar .3*/
+	/*
+	transition:background 2s ease;
+	transition-delay:2s;             			 este sirve para colocar un retraso en la animación*/
+}
+
+/* Velocidad de Curva
+	ease - inicio lento, despues rapido y termina lento
+	linear - misma velocida de inicio a fin
+	ease-in - inicio lento
+	ease-out - final lento
+	ease-in-out - inicio lento y final lento
+*/
+
+.caja:hover {
+	background: #9eb3c2;
+	width: 400px;
+	/*transform:rotate(180deg);*/
+}

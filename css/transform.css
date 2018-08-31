@@ -1,0 +1,26 @@
+.caja {
+	background: #ffaa5a;
+	width: 200px;
+	height: 200px;
+	/*transform:translate(300px, 0px);Izq-der, arriba y abajo
+	  transform:translateX(300px);
+	*/ 
+	/*transform:scale(1.1,1.1);*/
+	/*transform:rotate(10deg); deg=grados*/
+	/*transform:skew(20deg, 0deg); sesgado o deforma algo*/
+
+	transform:translate(200px) scale(1.5, 1.5) rotate(10deg);
+	-moz-transform:translate(200px) scale(1.5, 1.5) rotate(10deg);
+	-webkit-trasnform:translate(200px) scale(1.5, 1.5) rotate(10deg);
+}
+
+
+
+/*
+esto es mas para hacer animaciones
+Cosas que podemos hacer con transform:
+- Trasladar elementos
+- Escalar Elementos
+- Rotar Elementos
+- Sesgar Elementos
+*/

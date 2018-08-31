@@ -1,0 +1,24 @@
+body {font-family: Arial;}
+
+table, td, th{
+	border: 1px solid rgba(0,0,0, .2);/*con esto se da para dibujar la tabla, negro con transparencia*/
+}
+
+table {
+	border-collapse: collapse; /*le quita los bordes por cada celda y queda una sola linea*/
+	width: 500px;
+	text-align: center;/*para centrar la letra*/
+}
+
+th, td {
+	padding: 10px 20px;
+}
+
+th {
+	background: #009ddc;
+	color: #fff;
+}
+
+tr:hover {
+	background: #e5e5e5;
+}

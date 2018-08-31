@@ -1,0 +1,10 @@
+div > p {   /*solo los p que son directos son los que tienen la modificaction*/
+	font-size: 35px;
+}
+
+/*se utiliza por lo general en formularios*/
+input[type]{} /* en html si tenemos <input type="" se selecciona todos los tipos types atributos*/
+
+input[type="text"]{  /*atributo y valor*/
+	
+}

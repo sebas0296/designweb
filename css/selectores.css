@@ -1,0 +1,21 @@
+/* selector universal
+*{
+	corlor:red;
+}
+*/
+h1,h2{
+	color:red;
+}
+
+div article p {
+	color:#AF4A4A;
+}
+
+.grande {
+	font-size: 28px;
+}
+
+#grande {
+	font-size: 15px;
+	color: #245F73;
+}

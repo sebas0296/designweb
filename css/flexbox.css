@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+	font-family: Arial;
+}
+
+.contenedor {
+	width: 80%;
+	max-width: 700px;
+	height: 500px;
+	background: #212d40;
+	display:flex;
+	flex-direction:row; /*elementos uno al lado del otro      flexdirection:row-reverse o column o column-reverse*/
+	flex-wrap:wrap; /*permite que todos quepan en un contenedor 1 2 3 4 5
+															    6 7
+					 con no-wrap queda todo en una misma linea pero con el mismo tamaño 1 2 3 4 5 6 7*/
+
+	/*flex-flow:row wrap; combinación de las dos lineas anteriores*/
+	justify-content:space-between;  /*permite posicionar los elementos reemplaza a float.
+									Con center nos ayuda a centar todo los elementos
+									Con space-between ayuda a dividir los elementos correctamente*
+									space-around/
+	/*align-items:center; los elementos verticalmente*/
+	align-content:center;/*lo mismo los elementos verticalmente con mas d euna linea de elementos*/
+}
+
+.caja {
+	width: 100px;
+	height: 100px;
+	background:#f79256;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	font-size: 40px;
+	color: #fff;
+	/*order:1;*/
+	flex:1 1 auto;
+}
+
+.dos {
+	align-self:stretch;
+	height: auto;
+}

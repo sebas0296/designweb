@@ -1,0 +1,18 @@
+body{
+	font-family: "Times New Roman" , Arial ,Sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 3px; /* 3 px en cada letra de espacio*/
+	line-height: 30px; /*dejar de espaciado*/
+}
+
+h1{
+	font-size: 20px;
+	font-style: normal;
+	font-family: italic;
+	font-weight: bold;
+	text-align: left;/*center*/
+	text-decoration:underline;/* colocar linea o quitar en la letra*/
+	text-transform: uppercase;/*Mayusculas con uppercase o minis con lowercase o capitalize cada primera letra va en mayuscula*/
+
+
+}

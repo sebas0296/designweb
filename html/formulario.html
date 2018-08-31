@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+</head>
+			<body>
+				<form action="" method="">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" placeholder="Nombre" maxlength="10" required name="nombre"><!-- recibe los datos del name nombre en php-->
+					<br>
+					<input type="correo" placeholder="Correo" name="correo">
+					<br>
+					<textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+					<br>
+
+					<label for="pais">Pais:</label><!--se relacione el texto con el imput o con el select de name="pais" id="pais", si uno le da click se muestra que se selecciona mexico-->
+					<select name="pais" id="pais">
+							<option value="mexico">Mexico</option>
+							<option value="españa">España</option>
+					</select>
+					<br>
+
+					<input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label> <!--se escoge uno por tener el mismo name-->
+					<input type="radio" name="genero" value="mujer" id="mujer"><label for="mujer">Mujer:</label>
+					<br>
+
+					<input type="checkbox" name="terminos" id="terminos"><label for="terminos">Terminos y condiciones</label>
+					<input type="submit"><!--boton de enviar-->
+
+				</form>				
+			</body>
+</html>
