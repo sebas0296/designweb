@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+/*Por lo general colocar los widht con % ya que utilizamos el meta:vp*/
+body{
+	font-family: Arial, Sans-serif;
+	font-size: 14px;
+	background: #714747;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;/*lo max sea 1000 par arreglar eso en pantallas grandes*/
+	margin: 20px auto; /*el auto es para centrar */
+	overflow: hidden; /*se aplico overflow en el main y en el siden   */
+}
+
+header{
+	background: #fff;
+
+}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul {
+	width: 100%;	
+	overflow: hidden; /*se coloca por el  float left*/
+	list-style: none; /*se quita los puntos del menu*/
+	
+}
+
+header nav ul li {
+	float: left;
+
+	/*display: inline-block*/
+}
+
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block; /*duda*/
+	padding: 15px 20px;
+	color: #000;
+}
+
+header nav ul li a:hover {
+	background: #000;
+	color: #fff;
+}
+
+.main {
+	width: 70%;
+	background: #fff;
+	float: left;
+}
+
+.main .imagen { /*contededor*/
+	width: 100%;
+}
+
+.main .imagen img{
+	width: 100%;
+	vertical-align: top;
+}
+
+.main .posts {
+	padding: 40px;
+}
+
+.main .posts article h2 {
+	margin-bottom: 20px;
+	color: #424242;
+}
+
+.main .posts article p {
+	margin-bottom: 15px;
+	line-height: 27px; /*separar un poco el texto*/
+}
+
+aside {
+	width: 30%;
+	background: #161f26;
+	padding: 20px;
+	color: #fff;
+	float: left;
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+
+aside .widget .titulo{
+	color: #ff8000;
+	border-bottom: 1px solid #ff8000;
+	margin-bottom: 10px;
+
+}
+
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li {
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	padding: 10px 0;
+}
+
+aside .widget ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+aside .widget ul li a:hover {
+	color: #8f8f8f;
+}
+
+aside .widget p{
+	line-height: 27px;
+
+}
+
+footer {
+	width: 70%;
+	background: #000;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+	/*overflow: hidden; o clear: both*/
+	clear: both; /*comienza en una nueva linea*/
+}
+
+/*los mediaqueries son como condicionales*/
+
+/*cuando esta en una pantalla y tenga max 800px de largo ejecute tal cosa*/
+
+@media screen and (max-width: 800px){
+	.main{
+		width: 100%;
+		font-size: 14px;
+	}
+	
+	aside{
+		width: 100%;
+	}
+
+	footer{
+		width: 100%;
+	}
+}
