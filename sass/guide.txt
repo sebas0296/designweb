@@ -1,0 +1,10 @@
+ingresamos a start command proompt with ruby
+cd:C:\Users\sebas\Desktop\practice\sass
+
+Y se pode sass (se coloca el nombre dle archivo que vamos a compilar.sass):(se coloca el nombre del archivo.css)
+
+
+in sass existe:
+@include
+@externd . la clase
+@mixin la funcion()
